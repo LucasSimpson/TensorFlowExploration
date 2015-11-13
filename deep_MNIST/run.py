@@ -117,7 +117,7 @@ accuracy = tf.reduce_mean (tf.cast (correct_prediction, "float"))
 sess.run (tf.initialize_all_variables ())
 
 # 20000 iterations
-for a in range (500):
+for a in range (2000):
 
 	# grab 50 pictures as 50x784 array
 	batch = mnist.train.next_batch (50)
@@ -138,7 +138,7 @@ for a in range (500):
 			keep_prob: 0.5,
 		})
 
-# final output
+# final output (~99.2%)
 print "Test accuracy %g" % accuracy.eval (feed_dict={
 											x: batch [0],
 											y_: batch [1],
