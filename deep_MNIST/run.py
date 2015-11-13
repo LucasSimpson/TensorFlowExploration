@@ -138,7 +138,8 @@ for a in range (2000):
 			keep_prob: 0.5,
 		})
 
-# final output (~99.2%)
+# final output (~99.2%)ls
+
 print "Test accuracy %g" % accuracy.eval (feed_dict={
 											x: batch [0],
 											y_: batch [1],
