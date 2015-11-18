@@ -1,0 +1,6 @@
+model_checkpoint_path: "./saves/s-1900"
+all_model_checkpoint_paths: "./saves/s-1500"
+all_model_checkpoint_paths: "./saves/s-1600"
+all_model_checkpoint_paths: "./saves/s-1700"
+all_model_checkpoint_paths: "./saves/s-1800"
+all_model_checkpoint_paths: "./saves/s-1900"
